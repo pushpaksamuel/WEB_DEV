@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* tag selector */
+        div {
+            color: red;
+            background-color: thistle;
+        }
+
+        /*class selector*/
+        .sam {
+            color: blue;
+            background-color: grey;
+        }
+
+        /*id selector */
+        #es2 {
+            color: green;
+            background-color: yellow;
+        }
+
+        /* child selector */
+        /* div > p{
+            color: black;
+            background-color: pink;
+        } */
+        /* descendant selector */
+        div p {
+            color: black;
+            background-color: pink;
+        }
+
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: beige;
+        }
+
+        /* body selector*/
+        body {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /*pseudo selector */
+        a:visited {
+            color: red;
+        }
+
+        a:link {
+            color: chartreuse;
+        }
+
+        a:active {
+            background-color: cadetblue;
+        }
+        
+        a:hover {
+            color: blue;
+        }
+
+        p:first-child {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="one">
+        <p>i am first</p>
+        <p>i am second</p>
+    </main>
+    <h1>Selectors in css using internal css</h1>
+    <div>
+        es2 is so hard to understand
+    </div>
+    <div class="sam">
+        es2 is so hard to understand
+    </div>
+    <div id="es2">
+        es2 is so hard to understand
+    </div>
+    <div>
+        <article>
+            <p> we are learning es2</p>
+        </article>
+    </div>
+    <a href="https://www.google.com " target="_blank">Google</a>
+    <a href="https://www.instagram2.com ">Instagram</a>
+
+</body>
+
+</html>
