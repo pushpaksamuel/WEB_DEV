@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* Box Model */
+        .box {
+            background-color: royalblue;
+        }
+
+        .div1 {
+            color: #D76C82;
+            padding: 10px;
+            margin: 35px;
+            border: 3px solid red;
+            width: 200px;
+            box-sizing: border-box;
+        }
+
+        .div2 {
+            color: #e67238;
+            padding: 10px 20px 30px 40px;
+            margin: 20px;
+            border: 3px solid red;
+            width: 200px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+</body>
+<div class="box div1">this a div </div>
+<div class="box div2">this a div </div>
+
+</html>
+
+<!-- how to calculate the total width of the div1 element? -->
+<!-- total width = width + padding-left + padding-right + border-left + border-right + margin-left + margin-right -->
+
+<!-- total height= height + padding-top + padding-bottom + border-top + border-bottom + margin-top + margin-bottom -->
